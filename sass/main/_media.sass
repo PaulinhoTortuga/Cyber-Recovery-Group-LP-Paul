@@ -1,0 +1,542 @@
+@media (max-width: 1290px)  
+	.main
+		header
+			justify-content: space-between
+			nav
+				margin: 0
+				.header_btn_contact
+					margin-left: 52px
+	.trusted
+		.img_desktop
+			display: none
+		.img_tablet
+			display: block
+		&_content
+			justify-content: space-between
+	.recovered
+		&_slides
+			margin-top: 8px
+			flex-wrap: wrap  
+			max-width: 100%
+			justify-content: space-around
+			&_section
+				margin-top: 32px
+				padding: 0
+				padding-left: 33px 
+				font-size: 30px
+				max-width: 308px
+				span
+					margin-bottom: 20px
+					max-width: 63%                    
+				.img_desktop
+					display: none
+				.img_tablet
+					display: block
+				.img_mobile
+					display: none	
+
+@media (max-width: 1172px)
+	.main             
+		h1
+			span
+				&::after
+					top: 90%
+@media (max-width: 1102px)
+	.main             
+		h1
+			span
+				&::after
+					top: 80%
+@media (max-width: 1024px) 
+	.body_wrapper
+		background-position: 100% 10%, 0% 8%
+	.main
+		&_wrapper
+			max-width: 1024px
+			padding: 0 32px 60px 32px
+		header 
+			position: fixed
+			top: 0
+			right: 0
+			left: 0
+			width: 100%
+			height: 100px
+			z-index: 1
+			background-color: #F4F4F4 
+			img
+				position: absolute
+				top: 26px
+				left: 32px
+				max-height: 47px
+				z-index: 2
+			nav
+				display: flex
+				flex-direction: column
+				margin: 0
+				position: fixed
+				top: -100%
+				height: 483px
+				right: 0
+				left: 0
+				transition: 0.6s all
+				background: #F9F9F9
+				ul
+					margin-top: 135px
+					display: flex
+					flex-direction: column
+					align-items: center
+					font-size: 22px
+					li
+						margin: 0
+						margin-bottom: 40px
+				.header_btn_contact
+					margin: 0
+			.active
+				top: 0
+			.burger_btn
+				display: block
+				position: absolute
+				right: 32px
+				top: 30px
+				width: 47px
+				span
+					display: block
+					height: 3px
+					margin-bottom: 10px
+					background-color: #000000
+					transition: 0.5s all
+				&_active
+					span
+						margin-bottom: -2px
+						&:first-child
+							transform: rotate(-45deg)
+						&:nth-child(2)
+							display: none
+						&:nth-child(3)
+							transform: rotate(45deg)
+		h1
+			margin-top: 179px
+			font-size: 71px
+			line-height: 105%     
+			max-width: 100%       
+		&_content
+			flex-direction: column
+			margin-top: 43px
+			align-items: flex-start
+			.img_desktop
+				display: none
+			.img_tablet
+				display: block
+			.img_mobile
+				display: none		                
+			&_subtitle
+				margin: 0
+				margin-top: 40px
+				margin-left: 272px
+				p
+					padding: 0
+					margin: 0
+					font-size: 23px
+					line-height: 130%
+					max-width: 100%
+				a
+					margin-top: 20px
+					padding: 15px 19px
+					font-size: 22px
+					max-width: 71%
+		.slider_title
+			margin-top: 50px
+			font-size: 20px
+		.slider
+			&_logo
+				max-height: 60px
+			.tablet_hidden
+				display: none
+	.trusted
+		&_wrapper
+			max-width: 1024px
+			padding: 70px 32px  
+		.img_desktop
+			display: none
+		.img_tablet
+			display: block
+		.img_mobile
+			display: none		            
+		&_content
+			margin-left: 20px
+			h2
+				font-size: 30px
+			p
+				max-width: 90%
+				font-size: 16px
+			.online-title
+				margin-top: 10px
+				span
+					font-size: 22px
+		a
+			padding: 14px 42px
+			font-size: 21px
+			max-width: 100%
+	.recovered
+		&_wrapper
+			max-width: 1024px
+			padding: 70px 32px  
+		&_content
+			flex-direction: column
+			align-items: flex-start
+			&_main
+				max-width: 100%
+				h3
+					font-size: 20px
+				&_number
+					margin-top: 15px
+					font-size: 65px
+				p
+					margin-top: 15px
+					font-size: 16px
+					max-width: 67%
+			a
+				margin-top: 30px
+				padding: 15px 19px
+				font-size: 22px
+		&_slides
+			margin-top: 8px
+			flex-wrap: wrap  
+		
+			&_section
+				margin-top: 32px
+				padding: 0
+				padding-left: 33px 
+				font-size: 30px
+				max-width: 308px
+				span
+					margin-bottom: 20px
+					max-width: 63%                    
+				.img_desktop
+					display: none
+				.img_tablet
+					display: block
+				.img_mobile
+					display: none		                    
+	.practice 
+		&_wrapper
+			max-width: 1024px
+			padding: 70px 32px  
+		&_main
+			flex-direction: column
+			&_text
+				max-width: 100%
+				h3
+					font-size: 30px
+				p
+					font-size: 16px
+		.img_desktop
+			display: none
+		.img_tablet
+			display: block
+			margin-top: 30px
+		.img_mobile
+			display: none		            
+		&_blocks
+			flex-wrap: wrap
+			justify-content: space-between
+			margin-top: 30px
+			max-width: 100%
+			&_block
+				padding: 87px 11px
+				margin-right: 0
+				margin-top: 5px
+				min-width: 30%
+	.contact
+		&_wrapper
+			max-width: 1024px
+			flex-direction: column
+			padding: 70px 32px  
+		&_board 
+			padding: 25px 91px 21px 91px
+			h2
+				font-size: 30px
+			&_item
+				margin-top: 20px
+				&:first-child
+					margin-top: 10px
+				&_header
+					h4
+						font-size: 16px
+				span
+					margin-left: 25px
+		&_form
+			margin-left: 0
+			margin-top: 20px
+			padding: 61px 26px
+			&_header
+				h3
+					font-size: 30px
+			&_inputs
+				&_input
+					font-size: 14px
+	footer
+		.footer_wrapper
+			max-width: 1290px
+			padding: 30px 32px
+			p
+				font-size: 12px
+		.footer_slides
+			margin-top: 20px
+			&_slide
+				max-height: 54px
+				margin-right: 18px
+				&:nth-child(5)
+					max-height: 45px
+				&:nth-child(6)
+					max-height: 25px
+				&:last-child
+					max-height: 21px
+@media (max-width: 768px)
+	.body_wrapper
+		background-size: 150%, 100%
+		background-position: 100% 6%, 100% -1%
+	.main
+		&_wrapper
+			max-width: 768px
+			padding: 0 16px 34px 16px
+		header
+			height: 62px
+			img
+				max-height: 39px
+				top: 12px
+				left: 16px
+			nav
+				height: 371px
+				ul
+					margin-top: 93px
+					font-size: 18px
+					li
+						margin-bottom: 30px
+				.header_btn_contact
+					font-size: 18px
+					padding: 8.5px 40.5px
+			.burger_btn
+				width: 30px
+				top: 22px
+				right: 15px
+				span
+					margin-bottom: 6px
+				&_active
+					span
+						margin-bottom: -2px
+		h1
+			margin-top: 82px
+			font-size: 50px
+			&::after
+				width: 350px
+				height: 350px
+				right: -7%
+				top: -60%
+			span
+				&::after
+					width: 288px
+					top: 100%
+					right: -10%
+		&_content
+			margin-top: 56px
+			.img_desktop
+				display: none
+			.img_tablet
+				display: none
+			.img_mobile
+				display: block	
+				max-width: 100%     
+			&_subtitle
+				margin-top: 20px
+				margin-left: 0    
+				p
+					font-size: 18px
+				a
+					font-size: 17px
+					max-width: 100%
+					text-align: center
+		.slider_title
+			margin-top: 40px
+			font-size: 17px   
+		.slider
+			margin-top: 20px
+			justify-content: space-around
+			transition: 0.5s all
+			&_logo
+				max-height: 76px
+				max-width: 100%
+				&:last-child
+					margin-top: 16px
+					height: 76px
+			.mobile_hidden
+				display: none
+	.trusted
+		&_wrapper
+			max-width: 768px
+			padding: 40px 16px
+			flex-direction: column
+		.img_desktop
+			display: none
+		.img_tablet
+			display: none
+		.img_mobile
+			display: block	
+			max-width: 100%	
+		&_content
+			margin-left: 0
+			margin-top: 20px
+			h2
+				font-size: 27px    
+			p
+				max-width: 100%
+			.online_title
+				margin-top: 10px
+		a
+			padding: 17px 38px
+			font-size: 17px
+			text-align: center
+	.recovered
+		&_wrapper
+			max-width: 758px
+			padding: 40px 16px
+		&_content
+			&_main
+				h3
+					font-size: 16px
+				&_number
+					font-size: 53px
+				p
+					margin-top: 10px
+					max-width: 100%
+			a
+				margin-top: 10px
+				font-size: 17px 
+				text-align: center
+		&_slides
+			margin-top: 0
+			&_section
+				margin-top: 20px
+				padding: 0
+				border: none 
+				font-size: 17px
+				max-width: 134px
+				span
+					margin-bottom: 10px
+					font-size: 17px
+					max-width: 100%
+					&:first-child
+						margin-bottom: 10px
+			.img_desktop
+				display: none
+			.img_tablet
+				display: none
+			.img_mobile
+				display: block	
+	.practice
+		&_wrapper
+			max-width: 768px
+			padding: 40px 16px
+			display: flex
+			flex-direction: column
+			align-items: center
+		&_main
+			&_text
+				p
+					margin-top: 10px
+		.img_desktop
+			display: none
+		.img_tablet
+			display: none
+		.img_mobile
+			display: block	
+			margin-top: 20px
+			max-width: 100%
+		&_blocks
+			margin-top: 20px
+			&_block
+				padding: 26px 31px
+				min-width: 49%
+				box-sizing: border-box
+				span
+					font-size: 14px
+	.contact
+		&_wrapper
+			max-width: 768px
+			padding: 40px 16px
+		&_board
+			padding: 20px
+			&_item
+				min-width: 100%
+				&:first-child
+					margin-top: 20px
+			span
+				margin-left: 0
+				margin-top: 5px
+		&_form
+			padding: 22px 14px
+			margin-top: 10px
+			&_header
+				h3
+					font-size: 24px
+				&_subtitle
+					line-height: 140%
+			&_inputs
+				margin-top: 20px
+				flex-direction: column
+				flex-wrap: nowrap
+				align-items: center
+				width: 100%
+				&_input
+					min-width: 90%
+					margin-top: 20px
+				.textarea
+					min-width: 90%
+			&_checkpoint
+				margin-top: 20px
+				&_text
+					font-size: 14px
+			&_btn
+				margin-top: 25px
+				padding: 11.5px 46px
+				font-size: 18px
+				min-width: 100%
+	footer
+		&_wrapper
+			max-width: 768px
+			padding: 30px 16px
+			p
+				font-size: 12px
+		.footer_slides
+			margin-top: 16px
+			flex-wrap: wrap
+			justify-content: space-between
+			&_slide
+				margin-top: 14px
+				max-height: 37px
+				margin-right: 5px
+				&:nth-child(5)
+					max-height: 31px
+				&:nth-child(6)
+					max-height: 17px
+				&:last-child
+					max-height: 14px
+@media (max-width: 524px) and (min-width: 494px) 
+	.main
+		h1
+			span
+				br
+					display: block
+@media (max-width: 454px)
+	.practice
+		&_blocks
+			&_block
+				min-width: none
+				max-width: 45%
+@media (max-width: 430px)
+	.main
+		h1
+			span
+				br
+					display: block
+					
